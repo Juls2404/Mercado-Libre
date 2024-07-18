@@ -1,3 +1,4 @@
+import 'package:flutter_application_1/AdminUsers.dart';
 import 'package:flutter_application_1/menu.dart';
 import 'package:flutter_application_1/registro.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lightBlue,
       ),
-      home: RegistroUsuario(),
+      home: MenuUsers(),
 
     );
   }
